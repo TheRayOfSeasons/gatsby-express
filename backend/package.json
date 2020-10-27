@@ -1,0 +1,20 @@
+{
+  "name": "knex-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm -r dotenv/config .",
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ray Lawrence Henri Sison",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "knex": "^0.21.8",
+    "nodemon": "^2.0.6"
+  }
+}
